@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Did you leave something behind? | Schatzii</title>
+  <title>Forgot Something? | Schatzii</title>
   <!--[if mso]>
   <style type="text/css">
     body, table, td, span, a { font-family: Arial, Helvetica, sans-serif !important; }
@@ -25,35 +25,31 @@
       .main-container { width: 100% !important; max-width: 100% !important; }
       .mobile-pad { padding-left: 20px !important; padding-right: 20px !important; }
       .col-stack { display: block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important; }
-      .hero-title { font-size: 24px !important; line-height: 31px !important; }
+      .hero-title { font-size: 28px !important; line-height: 34px !important; }
       .cart-item-title { font-size: 13px !important; }
     }
   </style>
 </head>
 <body style="margin: 0; padding: 0; background-color: #f4f4f4;">
-
   <!-- Preheader text -->
   <div style="display: none; font-size: 1px; color: #f4f4f4; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
-    Your curated selection is reserved and ready whenever you are. Return to your cart today.
+    Your gear is sitting in your cart wondering where you went. Come rescue it!
   </div>
-
   <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #f4f4f4;">
     <tr>
       <td align="center" style="padding: 25px 12px 40px 12px;">
-        
         <!--[if (gte mso 9)|(IE)]>
         <table role="presentation" width="600" align="center" border="0" cellspacing="0" cellpadding="0">
         <tr>
         <td>
         <![endif]-->
-        
         <table role="presentation" class="main-container" width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; background-color: #ffffff; border: 1px solid #e2e2e2;">
           
           <!-- Top Utility Banner -->
           <tr>
             <td align="center" style="background-color: #111111; padding: 9px 15px;">
               <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #dcdcdc; font-weight: 500;">
-                San Francisco &bull; Intelligent Function & Smart Design
+                San Francisco &bull; Intelligent Function &amp; Smart Design
               </span>
             </td>
           </tr>
@@ -77,7 +73,7 @@
                   </td>
                   <td style="color: #cccccc; font-size: 11px;">&bull;</td>
                   <td style="padding: 0 14px;">
-                    <a href="https://schatzii.com/collections/accessories" target="_blank" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #555555; font-weight: 600;">Audio & Power</a>
+                    <a href="https://schatzii.com/collections/accessories" target="_blank" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #555555; font-weight: 600;">Audio &amp; Power</a>
                   </td>
                   <td style="color: #cccccc; font-size: 11px;">&bull;</td>
                   <td style="padding: 0 14px;">
@@ -88,15 +84,15 @@
             </td>
           </tr>
 
-          <!-- Hero Headline & Copy -->
+          <!-- Prominent "Forgot Something?" Headline & Friendly Copy -->
           <tr>
-            <td align="center" class="mobile-pad" style="padding: 28px 35px 16px 35px;">
-              <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #888888; font-weight: 700;">Saved In Your Bag</span>
-              <h1 class="hero-title" style="margin: 8px 0 10px 0; font-family: 'Georgia', serif; font-size: 26px; line-height: 33px; color: #111111; font-weight: 400;">
-                Did you leave something behind?
+            <td align="center" class="mobile-pad" style="padding: 32px 35px 20px 35px;">
+              <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #888888; font-weight: 700;">Your Cart Is Getting Lonely</span>
+              <h1 class="hero-title" style="margin: 8px 0 12px 0; font-family: 'Georgia', serif; font-size: 36px; line-height: 42px; color: #111111; font-weight: 700; letter-spacing: -0.5px;">
+                Forgot Something?
               </h1>
-              <p style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 14px; line-height: 23px; color: #555555; max-width: 480px;">
-                We saved your cart so you can easily return and complete your order. Your items are held in reserve and ready for checkout.
+              <p style="margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 15px; line-height: 24px; color: #555555; max-width: 480px;">
+                Looks like your tech got distracted halfway to checkout! Don’t worry—we tucked your gear safely in the corner so it wouldn’t wander off. Ready to bring it home?
               </p>
             </td>
           </tr>
@@ -105,12 +101,11 @@
           <tr>
             <td class="mobile-pad" style="padding: 10px 35px 22px 35px;">
               <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="border-top: 1px solid #eeeeee;">
-                
                 <!-- Klaviyo Dynamic Loop -->
                 {% for item in event.extra.line_items %}
                 <tr>
                   <td width="80" style="padding: 16px 15px 16px 0; border-bottom: 1px solid #eeeeee;" valign="middle">
-                    <img src="{{ item.product.images.0.src|default:'https://schatzii.com/cdn/shop/files/STP-010.Cloth_Pinwheel-Photoroom_1.png?v=1785471572&width=800' }}" alt="{{ item.title }}" width="75" style="width: 75px; height: auto; border: 1px solid #e5e5e5; display: block;" />
+                    <img src="{{ item.product.images.0.src|default:'https://schatzii.com/cdn/shop/files/2h6a0230_550x550.jpg?v=1774869144' }}" alt="{{ item.title }}" width="75" style="width: 75px; height: auto; border: 1px solid #e5e5e5; display: block;" />
                   </td>
                   <td valign="middle" style="padding: 16px 0; border-bottom: 1px solid #eeeeee;">
                     <div class="cart-item-title" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 700; color: #111111; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">
@@ -126,7 +121,6 @@
                 </tr>
                 {% endfor %}
                 <!-- End Klaviyo Dynamic Loop -->
-
               </table>
             </td>
           </tr>
@@ -138,15 +132,18 @@
                 <!--[if mso]>
                 <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ event.extra.checkout_url|default:'https://schatzii.com/cart' }}" style="height:48px;v-text-anchor:middle;width:260px;" arcsize="4%" stroke="f" fillcolor="#111111">
                   <w:anchorlock/>
-                  <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;">COMPLETE YOUR ORDER &rarr;</center>
+                  <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;">RESCUE MY CART &rarr;</center>
                 </v:roundrect>
                 <![endif]-->
                 <!--[if !mso]><!-->
                 <a href="{{ event.extra.checkout_url|default:'https://schatzii.com/cart' }}" target="_blank" style="display: inline-block; background-color: #111111; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 16px 36px; border-radius: 2px; text-decoration: none;">
-                  COMPLETE YOUR ORDER &rarr;
+                  RESCUE MY CART &rarr;
                 </a>
                 <!--<![endif]-->
               </div>
+              <p style="margin: 14px 0 0 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 12px; color: #888888;">
+                Questions? Just reply to this email—our San Francisco team is happy to help.
+              </p>
             </td>
           </tr>
 
@@ -156,8 +153,8 @@
               <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td align="center" class="col-stack" width="33%" style="padding: 8px 10px;">
-                    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #111111; text-transform: uppercase; margin-bottom: 2px; letter-spacing: 0.5px;">Prompt Dispatch</div>
-                    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #777777;">Dispatches within 24h</div>
+                    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #111111; text-transform: uppercase; margin-bottom: 2px; letter-spacing: 0.5px;">Fast Dispatch</div>
+                    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #777777;">Ships within 24 hours</div>
                   </td>
                   <td align="center" class="col-stack" width="33%" style="padding: 8px 10px;">
                     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #111111; text-transform: uppercase; margin-bottom: 2px; letter-spacing: 0.5px;">Protected Checkout</div>
@@ -179,20 +176,17 @@
               <p style="margin: 0 0 14px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #aaaaaa; max-width: 440px;">
                 Designed in San Francisco. Precision hardware, luxury acoustics, and optical-grade screen hygiene.
               </p>
-              
               <p style="margin: 0 0 14px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; line-height: 18px; color: #777777;">
                 <a href="https://schatzii.com/collections/all" target="_blank" style="color: #cccccc; text-decoration: none;">Shop All</a> &bull; 
                 <a href="https://schatzii.com/pages/about-us" target="_blank" style="color: #cccccc; text-decoration: none;">Our Story</a> &bull; 
                 <a href="mailto:info@schatzii.com" style="color: #cccccc; text-decoration: none;">Contact Support</a>
               </p>
-
               <!-- Klaviyo Compliance Tags -->
               <p style="margin: 0 0 10px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 11px; line-height: 18px; color: #666666;">
-                You are receiving this communication regarding activity in your Schatzii shopping cart.<br>
+                You are receiving this email because you left items in your Schatzii shopping cart.<br>
                 <a href="{% unsubscribe_url %}" style="color: #888888; text-decoration: underline;">Unsubscribe</a> &bull; 
                 <a href="{% manage_preferences_url %}" style="color: #888888; text-decoration: underline;">Manage Preferences</a>
               </p>
-              
               <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 10px; color: #555555;">
                 &copy; 2026 Schatzii Inc. All rights reserved.
               </div>
@@ -200,16 +194,13 @@
           </tr>
 
         </table>
-        
         <!--[if (gte mso 9)|(IE)]>
         </td>
         </tr>
         </table>
         <![endif]-->
-        
       </td>
     </tr>
   </table>
-
 </body>
 </html>
